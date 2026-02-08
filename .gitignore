@@ -1,1 +1,15 @@
+# Python cache and env
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+/.venv/
+venv/
+
+# Ignore .claude settings (we'll use settings.local.json instead)
+.claude/settings.json
+settings.local.json
 /.venv
